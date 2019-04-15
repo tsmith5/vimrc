@@ -1,5 +1,5 @@
 # .vimrc
-This is my JS-focused VIM config which I am currently running on MacOS. It should work on any OS, with maybe some minor changes to keybinds.
+This is my JS-focused VIM config which I am currently running on MacOS. It should work on Linux without any changes, and on Windows you should only need to modify the swap dir and plugin paths.
 
 ## Dependencies
 
