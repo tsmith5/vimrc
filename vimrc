@@ -260,7 +260,9 @@ cnoreabbrev W! w!
 cnoreabbrev Q! q!
 cnoreabbrev Wq wq
 cnoreabbrev wQ wq
+cnoreabbrev WQ wq
 cnoreabbrev W w
+cnoreabbrev Q q
 
 
 " Set the temp directory for backup and swap files to /tmp
