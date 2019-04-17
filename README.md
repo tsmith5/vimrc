@@ -6,7 +6,25 @@ This is my JS-focused VIM config which I am currently running on MacOS. It shoul
 1. Vim (obviously)
 2. [Vim Plug](https://github.com/junegunn/vim-plug)
 3. [Powerline Fonts](https://github.com/powerline/fonts)
-4. A decent terminal emulator with support for Powerline fonts and their symbols
+4. [Mystical Tutor Color Scheme](https://github.com/caksoylar/vim-mysticaltutor)
+5. A decent terminal emulator with support for Powerline fonts and their symbols
+
+You can install them all (on UNIX) like so:
+``` Dependency Installation Commands
+# Powerline Fonts
+cd ~
+git clone https://github.com/powerline/fonts.git --depth=1
+cd fonts 
+sudo ./install.sh 
+cd ..
+rm -rf fonts
+# Create directories
+mkdir -p .vim/autoload .vim/plugged .vim/colors .vim/tmp
+# Vim-Plug
+curl -fLo ~/.vim/autoload/plug.vim https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+# Mystical Tutor
+curl -fLo ~/.vim/colors/mysticaltutor.vim https://raw.githubusercontent.com/caksoylar/vim-mysticaltutor/master/colors/mysticaltutor.vim
+```
 
 ## Install
 
